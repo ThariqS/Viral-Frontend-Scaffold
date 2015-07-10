@@ -1,0 +1,13 @@
+@import 'constants.scss';
+@import 'fonts.scss';
+
+html,body{
+	height: 100%;
+	width: 100%;
+	background-color: $bg;
+	-webkit-font-smoothing: antialiased;
+}
+
+.sample{
+	color: red;
+}

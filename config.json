@@ -1,0 +1,13 @@
+{
+  "ports": {
+    "server": 7300,
+    "livereload": 35749
+  },
+  "aws": {
+    "accessKeyId": "fake",
+    "secretAccessKey": "fake",
+    "params": {
+      "Bucket": "viralscreensaver"
+    }
+  }
+}

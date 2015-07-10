@@ -1,0 +1,10 @@
+// $left-bar-min-width: 175px;
+@mixin declare-font-face($font-family, $font-filename, $font-weight : normal, $font-style :normal, $font-stretch : normal) {
+  @font-face {
+    font-family: $font-family;
+    src: url('/images/#{$font-filename}');
+    font-weight: $font-weight;
+    font-style: $font-style;
+    font-stretch: $font-stretch;
+  }
+}
