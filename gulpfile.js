@@ -20,11 +20,6 @@ var express = require('express'),
     refresh = require('gulp-livereload'),
     livereload = require('connect-livereload');
 
-var notify = require("gulp-notify");
-
-
-notify("launched!");
-
 var notifier = require('node-notifier');
 
 
